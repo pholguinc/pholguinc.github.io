@@ -86,8 +86,8 @@ const projects = [
   },
   {
     key: "p9",
-    image: "/images/projects/app-qr.webp",
-    images: ["/images/projects/app-qr.webp"],
+    image: "/images/projects/soporte-app.webp",
+    images: ["/images/projects/soporte-app.webp"],
     tags: ["Nestjs", "Typescript", "React Native", "PostgreSQL"],
     category: "Mobile",
     github: "",
