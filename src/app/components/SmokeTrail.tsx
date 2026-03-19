@@ -14,6 +14,8 @@ interface SmokeParticle {
   b: number;
 }
 
+//Init
+
 export function SmokeTrail() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<SmokeParticle[]>([]);
@@ -63,7 +65,7 @@ export function SmokeTrail() {
         const ratio = s / count;
         spawnParticles(
           lastPos.current.x + dx * ratio,
-          lastPos.current.y + dy * ratio
+          lastPos.current.y + dy * ratio,
         );
       }
       lastPos.current = { x: e.clientX, y: e.clientY };
@@ -75,7 +77,7 @@ export function SmokeTrail() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       particlesRef.current = particlesRef.current.filter(
-        (p) => p.opacity > 0.008
+        (p) => p.opacity > 0.008,
       );
 
       for (const p of particlesRef.current) {
@@ -92,15 +94,12 @@ export function SmokeTrail() {
           0,
           p.x,
           p.y,
-          p.size
+          p.size,
         );
-        gradient.addColorStop(
-          0,
-          `rgba(${p.r},${p.g},${p.b},${p.opacity})`
-        );
+        gradient.addColorStop(0, `rgba(${p.r},${p.g},${p.b},${p.opacity})`);
         gradient.addColorStop(
           0.4,
-          `rgba(${p.r},${p.g},${p.b},${p.opacity * 0.4})`
+          `rgba(${p.r},${p.g},${p.b},${p.opacity * 0.4})`,
         );
         gradient.addColorStop(1, `rgba(${p.r},${p.g},${p.b},0)`);
 
@@ -126,7 +125,16 @@ export function SmokeTrail() {
     <canvas
       ref={canvasRef}
       className="pointer-events-none"
-      style={{ zIndex: 9999, mixBlendMode: "screen", position: "fixed", top: 0, left: 0, margin: 0, padding: 0, display: "block" }}
+      style={{
+        zIndex: 9999,
+        mixBlendMode: "screen",
+        position: "fixed",
+        top: 0,
+        left: 0,
+        margin: 0,
+        padding: 0,
+        display: "block",
+      }}
     />
   );
 }
