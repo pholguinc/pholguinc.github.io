@@ -52,7 +52,7 @@ const translations = {
     "service.cloud.title": "Cloud & DevOps",
     "service.cloud.description":
       "Infraestructura escalable y despliegue continuo",
-    "service.custom.title": "Software Custom",
+    "service.custom.title": "Software a medida",
     "service.custom.description":
       "Desarrollo de software personalizado para tu negocio",
     "service.database.title": "Bases de Datos",
