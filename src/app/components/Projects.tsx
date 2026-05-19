@@ -93,6 +93,14 @@ const projects = [
     github: "",
     demo: "",
   },
+  {
+    key: "p10",
+    image: "/images/projects/school.webp",
+    images: ["/images/projects/school.webp"],
+    tags: ["Nextjs", "Typescript", "TailwindCSS"],
+    category: "Web",
+    demo: "https://school-landing-rho.vercel.app",
+  },
 ];
 
 export function Projects() {
