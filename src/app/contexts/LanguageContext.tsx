@@ -122,9 +122,9 @@ const translations = {
     "project.p9.description": "Aplicación Android para registrar, asignar y dar seguimiento a tickets de soporte técnico desde dispositivos móviles.",
     "project.p9.fullDescription": "Aplicación Android nativa para la gestión integral de soporte técnico. Permite a los técnicos recibir y atender tickets en campo, registrar el historial de intervenciones, adjuntar evidencias fotográficas y actualizar el estado de cada incidencia en tiempo real desde su dispositivo móvil.",
     "project.p9.features": "Creación y asignación de tickets de soporte técnico,Seguimiento del estado de incidencias en tiempo real,Registro fotográfico de evidencias por ticket,Historial de intervenciones por equipo o usuario",
-    "project.p10.title": "Landing Page para Instituciones Educativas",
-    "project.p10.description": "Landing page interactiva y moderna diseñada para colegios, institutos y universidades, enfocada en la captación de estudiantes y la presentación de la propuesta educativa.",
-    "project.p10.fullDescription": "Landing page de alto rendimiento diseñada específicamente para el sector educativo. Incluye secciones dinámicas para la presentación de programas académicos, galería interactiva de infraestructura, testimonios de estudiantes y padres, y un formulario inteligente de pre-admisión optimizado para maximizar la captación de leads escolares.",
+    "project.p10.title": "Landing Page para Colegios",
+    "project.p10.description": "Landing page interactiva y moderna diseñada para colegios, enfocada en la captación de nuevos alumnos y la presentación de la propuesta educativa.",
+    "project.p10.fullDescription": "Landing page de alto rendimiento diseñada específicamente para colegios. Incluye secciones dinámicas para la presentación de planes de estudio, galería interactiva de infraestructura escolar, testimonios de alumnos y padres de familia, y un formulario inteligente de admisión optimizado para maximizar el registro de nuevos postulantes.",
     "project.p10.features": "Diseño moderno y responsivo optimizado para conversiones,Formulario de pre-admisiones con validación en tiempo real,Sección autoadministrable de oferta académica y planes de estudio,Integración de testimonios dinámicos y galería fotográfica",
 
     // SUNAT
@@ -340,9 +340,9 @@ const translations = {
     "project.p9.description": "Android application to register, assign and track technical support tickets from mobile devices.",
     "project.p9.fullDescription": "Native Android application for comprehensive technical support management. Allows technicians to receive and handle tickets in the field, record intervention history, attach photographic evidence and update the status of each incident in real time from their mobile device.",
     "project.p9.features": "Creation and assignment of technical support tickets,Real-time incident status tracking,Photographic evidence recording per ticket,Intervention history by equipment or user",
-    "project.p10.title": "Landing Page for Educational Institutions",
-    "project.p10.description": "Interactive and modern landing page designed for schools, institutes, and universities, focused on student recruitment and academic presentation.",
-    "project.p10.fullDescription": "High-performance landing page specifically crafted for the educational sector. It features dynamic sections for academic program showcases, an interactive infrastructure gallery, student and parent testimonials, and an intelligent pre-admissions form optimized to maximize student recruitment.",
+    "project.p10.title": "Landing Page for Schools",
+    "project.p10.description": "Interactive and modern landing page designed for schools, focused on student recruitment and academic presentation.",
+    "project.p10.fullDescription": "High-performance landing page specifically designed for schools. It features dynamic sections for showcase of curricula, an interactive school infrastructure gallery, student and parent testimonials, and an intelligent admissions form optimized to maximize new student registration.",
     "project.p10.features": "Modern responsive design optimized for conversions,Pre-admissions form with real-time validation,Dynamic academic offerings and curricula presentation,Interactive testimonials and photography gallery integration",
 
     // SUNAT
