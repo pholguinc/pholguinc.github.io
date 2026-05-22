@@ -109,6 +109,13 @@ const projects = [
     category: "Library",
     demo: "https://pypi.org/project/pholguinc-multitenant-core",
   },
+  {
+    key: "p12",
+    image: "/images/projects/facturacion-sunat.webp",
+    images: ["/images/projects/facturacion-sunat.webp"],
+    tags: ["NestJS", "Prisma", "Docker", "PostgreSQL", "AWS Serverless", "Lambda", "AWS RDS", "AWS S3", "AWS Elastic Cache for Redis", "AWS SQS"],
+    category: "Library",
+  },
 ];
 
 export function Projects() {

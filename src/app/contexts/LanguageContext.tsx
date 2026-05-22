@@ -135,6 +135,11 @@ const translations = {
     "project.p11.features": "Python, Flask, FastAPI, Django, Docker",
 
 
+    // API Facturación SUNAT
+    "project.p12.title": "API Facturación SUNAT",
+    "project.p12.description": "API para la facturación electrónica con SUNAT, automatizando la creación y envío de comprobantes.",
+    "project.p12.fullDescription": "Servicio API que permite la generación, validación y envío de facturas electrónicas a SUNAT, integrando AWS Lambda, S3, RDS y SQS para procesamiento escalable y seguro.",
+    "project.p12.features": "AWS Lambda, AWS S3, AWS RDS, AWS SQS, Docker, NestJS, Prisma",
     // SUNAT
     "sunat.title": "Facturación Electrónica SUNAT",
     "sunat.description":
@@ -357,7 +362,12 @@ const translations = {
     "project.p11.description": "Python library for building multitenant applications with Flask, FastAPI, and Django.",
     "project.p11.fullDescription": "This library enables managing multiple tenants within a single app, offering integration with Flask, FastAI, and Django, and simplifies Docker deployment.",
     "project.p11.features": "Python, Flask, FastAI, Django, Docker",
-
+    // API Facturación SUNAT (English)
+    "project.p12.title": "API Facturación SUNAT",
+    "project.p12.description": "API for electronic invoicing with SUNAT, automating creation and sending of receipts.",
+    "project.p12.fullDescription": "API service that enables generation, validation and submission of electronic invoices to SUNAT, leveraging AWS Lambda, S3, RDS and SQS for scalable and secure processing.",
+    "project.p12.features": "AWS Lambda, AWS S3, AWS RDS, AWS SQS, Docker, NestJS, Prisma",
+    // SUNAT
     // SUNAT
     "sunat.title": "SUNAT Electronic Billing",
     "sunat.description":
